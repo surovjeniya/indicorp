@@ -33,5 +33,27 @@
             "title":"Digital   Marketing",
             "description":"The quick fox jumps over the lazy dog"
         }
+    ],
+    "chooseItems":[
+        {
+            "img":"./img/peoples.svg",
+            "title":"3K",
+            "description":"CASES DONE"
+        },
+        {
+            "img":"./img/chains.svg",
+            "title":"45",
+            "description":"HAPPY CUSTOMERS"
+        },
+        {
+            "img":"./img/medal.svg",
+            "title":"12+",
+            "description":"AWARD WINNING"
+        },
+        {
+            "img":"./img/bag.svg",
+            "title":"1.5K",
+            "description":"CASES DONE"
+        }
     ]
 }
