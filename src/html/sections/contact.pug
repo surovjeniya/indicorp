@@ -1,0 +1,10 @@
+include ../components/contactItem
+
+section.contact 
+    .contact__content.container
+        h2.contact__title Get In Touch
+        p.contact__description Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics  
+        .contact__items 
+            each item in contactItems 
+                +contactItem(item.img,item.email)
+

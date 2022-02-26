@@ -115,5 +115,20 @@
             "img":"./img/bing.svg",
             "url":"#"
         }
+    ],
+    "contactItems":[
+        {
+            "img":"./img/phone.svg",
+            "email":"georgia.young@example.com"
+        },
+        {
+            "img":"./img/location.svg",
+            "email":"georgia.young@example.com"
+            
+        },
+        {
+            "img":"./img/telegram.svg",
+            "email":"georgia.young@example.com"
+        }
     ]
 }

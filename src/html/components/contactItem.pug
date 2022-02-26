@@ -1,0 +1,10 @@
+include ../components/button
+
+mixin contactItem(img,email)
+    .contact__item
+        .contact__image
+            img(src= img, alt="")
+        p.contact__email= email
+        p.contact__support Get Support
+        +button('orange','Submit Request','#')
+         
