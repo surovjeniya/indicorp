@@ -1,0 +1,14 @@
+.partners {
+    padding: 5rem 0;
+    background: $c-bg;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        @media screen and (max-width:480px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
