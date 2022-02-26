@@ -1,0 +1,26 @@
+.container {
+    max-width: 1070px;
+    padding: 0 10px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+html {
+    font-size: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color:$c-gray;
+}
