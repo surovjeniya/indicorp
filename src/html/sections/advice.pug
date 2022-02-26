@@ -1,0 +1,10 @@
+include ../components/item
+
+
+section.advice 
+    .advice__content.container 
+        h2.advice__title Practice Advice
+        p.advice__decription Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics 
+        .advice__items 
+            each item in adviceItems
+                +item(item.img,item.title,item.description)
