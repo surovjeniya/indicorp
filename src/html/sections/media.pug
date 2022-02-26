@@ -1,0 +1,18 @@
+include ../components/item
+
+
+section.media 
+    .media__content.container
+        .media__top 
+            h2.media__title We are providing best business service.
+            p.media__subtitle Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics 
+        .media__main 
+            .media__video
+                img(src="./img/video_bg.jpg", alt="") 
+            .media__info
+                h3.media__advantage Most trusted in our field
+                p.media__description Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
+                .media__features
+                    each item in mediaItems
+                        +item(item.img,item.title,item.description)
+                    
