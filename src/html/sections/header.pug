@@ -1,16 +1,17 @@
 header 
-    .header 
-        .header__content.container
-            a(href="#")
-                img(src="./img/indicorp.svg", alt="")
-            input#header__burger(type="checkbox")
-            label.header__burger(for="header__burger")
-                span.line
-                span.line
-                span.line
-            nav.header__nav 
-                ul.header__menu 
-                    each link in headerLinks
-                        li.header__item 
-                            a.header__link(href= link.url)= link.label
-            
+    .header
+        .container
+            .header__content
+                a(href="#")
+                    img(src="./img/indicorp.svg", alt="")
+                input#header__burger(type="checkbox")
+                label.header__burger(for="header__burger")
+                    span.line
+                    span.line
+                    span.line
+                nav.header__nav 
+                    ul.header__menu 
+                        each link in headerLinks
+                            li.header__item 
+                                a.header__link(href= link.url)= link.label
+                

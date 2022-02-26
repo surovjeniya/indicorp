@@ -1,0 +1,38 @@
+.hero {
+    background-image: url('../img/background.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 16rem;
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+    &__title {
+        color:$c-black;
+        font-weight: 800;
+        font-size: 5.8rem;
+        margin-bottom: 3.5rem;
+        max-width: 509px;
+    }
+    &__desctiption {
+        font-weight: 500;
+        font-size: 2rem;
+        margin-bottom: 3.5rem;
+        max-width: 376px;
+    }
+    &__buttons {
+        display: flex;
+        margin-bottom: 8rem;
+            .regular__btn {
+                margin-right: 1rem;
+            }
+    }
+    &__items {
+       display: grid;
+       grid-template-columns: repeat(auto-fit,minmax(328px,1fr));
+       gap: 3rem;
+       position: relative;
+       top: 20px;
+    }
+}

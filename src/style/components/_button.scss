@@ -1,0 +1,20 @@
+.regular__btn {
+    padding: 1rem 3.6rem;
+    border-radius: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.4rem;
+    border:1px solid transparent;
+}
+.regular__btn.orange {
+    border-color: $c-orange;
+    background: $c-orange;
+    color:$c-white;
+}
+.regular__btn.transparent {
+    border-color: $c-blue;
+    background: transparent;
+    color:$c-blue;
+}
