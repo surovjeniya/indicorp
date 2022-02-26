@@ -1,0 +1,9 @@
+include ../components/item
+
+section.choose 
+    .choose__content.container 
+        h2.choose__title WHY CHOOSE US
+        p.choose__description Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics  
+        .choose__items 
+            each item in chooseItems
+                +item(item.img,item.title,item.description)
