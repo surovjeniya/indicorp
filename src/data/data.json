@@ -16,5 +16,22 @@
             "url":"#",
             "label":"Contact"
         }
+    ],
+    "items":[
+        {
+            "img":"./img/bag.svg",
+            "title":"Digital   Marketing",
+            "description":"We focus on ergonomics and meeting you where you work. "
+        },
+        {
+            "img":"./img/shop.svg",
+            "title":"National top 50 firms",
+            "description":"Just type what's on your mind and we'll get you there."
+        },
+        {
+            "img":"./img/list.svg",
+            "title":"Digital   Marketing",
+            "description":"The quick fox jumps over the lazy dog"
+        }
     ]
 }
