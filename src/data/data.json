@@ -89,5 +89,31 @@
             "title":"the quick fox jumps over the lazy dog",
             "description":"Things on a very small scale ..."
         }
+    ],
+    "partnersItems":[
+        {
+            "img":"./img/hooli.svg",
+            "url":"#"
+        },
+        {
+            "img":"./img/lyat.svg",
+            "url":"#"
+        },
+        {
+            "img":"./img/leaf.svg",
+            "url":"#"
+        },
+        {
+            "img":"./img/stripe.svg",
+            "url":"#"
+        },
+        {
+            "img":"./img/aws.svg",
+            "url":"#"
+        },
+        {
+            "img":"./img/bing.svg",
+            "url":"#"
+        }
     ]
 }
