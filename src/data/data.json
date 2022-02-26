@@ -1,3 +1,20 @@
 {
-    
+    "headerLinks":[
+        {
+            "url":"#",
+            "label":"Home"
+        },
+        {
+            "url":"#",
+            "label":"Product"
+        },
+        {
+            "url":"#",
+            "label":"Pricing"
+        },
+        {
+            "url":"#",
+            "label":"Contact"
+        }
+    ]
 }
