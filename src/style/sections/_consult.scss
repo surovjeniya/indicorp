@@ -4,9 +4,16 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        @media screen and (max-width:480px) {
+            flex-direction: column;
+            max-width: 240px;
+        }
     }
     .regular__btn {
         border-radius: 5px;
+        @media screen and (max-width:480px) {
+            margin-top: 5rem;
+        }
     }
     &__title {
         font-weight: 700;

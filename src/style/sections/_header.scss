@@ -49,6 +49,9 @@
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
+                    a {
+                        color:$c-white;
+                    }
                     .header__item {
                         margin-right: 0;
                         margin-bottom: 2rem;
