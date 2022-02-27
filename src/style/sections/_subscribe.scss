@@ -1,6 +1,7 @@
 .subscribe {
     background: #252B42;
     height: 77px;
+    
     &__content {
         color:$c-white;
         background: #16697A;
@@ -10,6 +11,10 @@
         padding: 3rem 5rem;
         position: relative;
         top: -70px;
+        @media screen and (max-width:480px) {
+            flex-direction: column;
+            align-items: center;
+        }
     }
     &__form {
         display: flex;
@@ -20,6 +25,10 @@
         font-weight: 700;
         font-size: 2.4rem;
         line-height: 3.2rem;
+        @media screen and (max-width:480px) {
+           text-align: center;
+           margin-bottom: 4rem;
+        }
     }
     &__input {
         padding: 1.5rem 2rem;
@@ -28,6 +37,9 @@
         width: 333px;
         &:focus {
             outline: none;
+        }
+        @media screen and (max-width:480px) {
+            width: auto;
         }
     }
     &__btn {
