@@ -130,5 +130,113 @@
             "img":"./img/telegram.svg",
             "email":"georgia.young@example.com"
         }
+    ],
+    "footerCompanies":[
+        {
+            "url":"#",
+            "label":"About Us"
+        },
+        {
+            "url":"#",
+            "label":"Carrier"
+        },
+        {
+            "url":"#",
+            "label":"We are hiring"
+        },
+        {
+            "url":"#",
+            "label":"Blog"
+        }
+    ],
+    "footerLegal":[
+        {
+            "url":"#",
+            "label":"About Us"
+        },
+        {
+            "url":"#",
+            "label":"Carrier"
+        },
+        {
+            "url":"#",
+            "label":"We are hiring"
+        },
+        {
+            "url":"#",
+            "label":"Blog"
+        }
+    ],
+    "footerFeatures":[
+        {
+            "url":"#",
+            "label":"Business Marketing"
+        },
+        {
+            "url":"#",
+            "label":"User Analytic"
+        },
+        {
+            "url":"#",
+            "label":"Live Chat"
+        },
+        {
+            "url":"#",
+            "label":"Unlimited Support"
+        }
+    ],
+    "footerResources":[
+        {
+            "url":"#",
+            "label":"IOS & Android"
+        },
+        {
+            "url":"#",
+            "label":"Watch a Demo"
+        },
+        {
+            "url":"#",
+            "label":"Customers"
+        },
+        {
+            "url":"#",
+            "label":"API"
+        }
+    ],
+    "footerContacts":[
+        {
+            "img":"./img/phone.svg",
+            "label":"(480) 555-0103"
+        },
+        {
+            "img":"./img/location__blue.svg",
+            "label":"4517 Washington Ave. "
+        },
+        {
+            "img":"./img/telegram.svg",
+            "label":"debra.holt@example.com"
+        }
+    ],
+    "footerSocials":[
+        {
+            "url":"https://facebook.com",
+            "alt":"facebook link",
+            "img":"./img/facebook.svg"
+        },
+        {
+            "url":"https://instagram.com",
+            "alt":"instagram link",
+            "img":"./img/instagram.svg"
+        },
+        {
+            "url":"https://twitter.com",
+            "alt":"twitter link",
+            "img":"./img/twitter.svg"
+        },
+        {
+            "url":"https://youtube.com",
+            "alt":"youtube link",
+            "img":"./img/youtube.svg"
+        }
     ]
 }
